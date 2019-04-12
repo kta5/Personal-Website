@@ -13,3 +13,9 @@ a{
 h1{
     color: #0000FF;
 }
+
+.ResumeLink{
+    text-decoration: none;
+    color: red;
+
+}

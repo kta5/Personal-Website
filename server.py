@@ -10,6 +10,10 @@ def home():
 def contact():
     return render_template("contact.html")
 
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
 @app.route("/process", methods=['GET', 'POST'])
 def process():
     return "Hello " + request.form['student_name'] + " and your ID number is " + request.form['id']
